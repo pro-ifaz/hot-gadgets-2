@@ -1,6 +1,62 @@
-*{
-    font-family: sans-serif;
+body{
+    font-family: 'Mulish', sans-serif;
+    background-color: whitesmoke;
 }
+#header{
+    margin-bottom: 100px;
+}
+
 .container{
     margin-bottom: 100px;
+}
+.banner-products p{
+width: 350px;
+color: gray;
+}
+.banner-products{
+    background-image: linear-gradient(45deg,rgb(194, 251, 255), rgb(241, 225, 134) );
+    border: none;
+    border-radius: 13px;
+    box-shadow: 5px 5px 5px 10px rgb(214, 213, 213);
+}
+.carousel-indicators .active{
+background-image: linear-gradient(45deg, rgb(42, 194, 194) , rgb(238, 207, 106));
+width: 40px;
+height: 10px;
+border-radius: 10px;
+border: none;
+}
+.carousel-indicators li {
+    background-image: linear-gradient(45deg, rgb(42, 194, 194) , rgb(51, 65, 255));
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    border: none;
+}
+.card img{
+    margin-top: 30px;
+}
+.cmn-btn{
+    border: none;
+    border-radius: 10px;
+    padding: 8px 25px;
+    background-image: linear-gradient(45deg, rgb(141, 208, 219), rgb(156, 0, 196) );
+    color: white;
+}
+.sm-title, .lp-title{
+    margin-bottom: 20px;
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px gray;
+    border-radius: 10px;
+}
+.card-title{
+    font-weight: bold;
+    text-align: center;
+}
+.card-text{
+    text-align: center;
+    font-weight: 500;
+    color: rgb(139, 139, 139);
 }
